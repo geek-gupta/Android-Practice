@@ -1,0 +1,8 @@
+*.swp
+.gradle
+local.properties
+.idea
+*.iml
+build
+*google-services.json
+.DS_Store

@@ -1,0 +1,8 @@
+<root>
+    <item name='javax.script.ScriptEngine'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+    <item name='javax.script.ScriptEngineManager'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

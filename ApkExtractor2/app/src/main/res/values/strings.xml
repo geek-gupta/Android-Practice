@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Apk Extractor</string>
+   <string name="back_up_text">Storage Path : \nInternal Storage -> Downloads</string>
+    <string name="about_section_text">Apk Extractor is providing you the feature of backing up your app so that you may use when u need it the most.It It is easy to use and is very relaible in terms of performance.The best part is that it don\'t lag.</string>
+</resources>

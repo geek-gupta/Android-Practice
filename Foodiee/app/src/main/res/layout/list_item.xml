@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="102dp"
+        android:scaleType="fitXY"
+        android:layout_height="95dp"
+        android:layout_marginLeft="0dp"
+        android:background="@android:drawable/btn_star"/>
+
+    <LinearLayout
+        android:layout_width="210dp"
+        android:layout_height="96dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_weight="1.03">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameField"
+            android:text="sdcsvfvf"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.5" />
+
+        <TextView
+            android:id="@+id/detailfield"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="fewferferf"
+            android:layout_marginLeft="20dp"/>
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/map"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:src="@android:drawable/ic_dialog_map" />
+
+
+</LinearLayout>

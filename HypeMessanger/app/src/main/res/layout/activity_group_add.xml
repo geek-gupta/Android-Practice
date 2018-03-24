@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="80dp"
+    android:gravity="center|top"
+    android:background="#78909C"
+    tools:context="com.example.gaurav.hypemessanger.Register.GroupAddActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Add or Search Group"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:textColor="#FF9E80"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Spinner
+        android:id="@+id/group_spinner"
+        android:layout_width="wrap_content"
+        android:minWidth="160dp"
+        android:background="@drawable/edittextstyle"
+        android:layout_height="30dp" />
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="+"
+        android:id="@+id/group_add"
+        android:background="@drawable/login_button_drawable"/>
+</LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Proceed"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:background="@drawable/login_button_drawable"/>
+</LinearLayout>

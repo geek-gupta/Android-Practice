@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "476224821563",
+    "firebase_url": "https://hypemessanger-f580d.firebaseio.com",
+    "project_id": "hypemessanger-f580d",
+    "storage_bucket": "hypemessanger-f580d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476224821563:android:7a056b1f14dba0b0",
+        "android_client_info": {
+          "package_name": "com.example.gaurav.hypemessanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476224821563-grk8ioalbocnbe88kj0gmp5kqij6o94k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gaurav.hypemessanger",
+            "certificate_hash": "de25c26c249274e4aceb9bfe4196981256ba19ec"
+          }
+        },
+        {
+          "client_id": "476224821563-1r2pm2eagtgn8lk3jucrthqctoni9j82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAImMSv1kF04nfBv7Fie-RThslAzn0gRv8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476224821563-1r2pm2eagtgn8lk3jucrthqctoni9j82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

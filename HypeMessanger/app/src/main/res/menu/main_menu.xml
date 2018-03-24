@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Recevied" android:id="@+id/msgReceivedItem"/>
+    <item android:title="Share"/>
+    <item android:title="Rate us"/>
+    <item android:title="About" android:id="@+id/AboutUsSection"/>
+    <item android:title="Sign Out" android:id="@+id/signOutUser"/>
+
+</menu>

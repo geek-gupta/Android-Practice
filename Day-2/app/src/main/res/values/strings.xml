@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="hint_textview1">Data</string>
+    <string name="hint_textview2">Result</string>
+</resources>

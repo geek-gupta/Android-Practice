@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Locations</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="youtube_api_key">AIzaSyDJSbF2Ub6HXPCItspjWO1bUntl4yo0g8c</string>
+</resources>

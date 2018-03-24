@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        android:id="@+id/search_bar"
+        android:title="search"></item>
+    <item android:title="Shuffle All" android:id="@+id/shuffle_all"></item>
+    <item android:title="Playlist" android:id="@+id/play_list"></item>
+    <item android:title="Music Video" android:id="@+id/music_video"></item>
+    <item android:title="Rate" android:id="@+id/rate_us"></item>
+    <item android:title="Feedback" android:id="@+id/feedback"></item>
+    <item android:title="Settings" android:id="@+id/settings"></item>
+</menu>

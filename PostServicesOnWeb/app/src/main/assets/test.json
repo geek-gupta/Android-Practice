@@ -1,0 +1,17 @@
+{
+  "courses" : [
+    {
+    "name":"Pandora",
+    "id":"1",
+    "teacher":"Nipun"},
+    {
+      "name":"Crux",
+      "id":"2",
+      "teacher":"Harpreet"},
+    {
+      "name":"Algo",
+      "id":"3",
+      "teacher":"Nipun"}
+
+  ]
+}

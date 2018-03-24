@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_item"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/new_group_item"
+        android:title="XYZ" />
+    <item
+        android:id="@+id/new_broadcast_item"
+        android:title="ABC" />
+    <item
+        android:id="@+id/whatsapp_web_item"
+        android:title="GAURAV" />
+    <item
+        android:id="@+id/starred_message_item"
+        android:title="SAURAC" />
+    <item
+        android:id="@+id/settings_item"
+        android:title="NIPUN_SIR" />
+
+
+</menu>

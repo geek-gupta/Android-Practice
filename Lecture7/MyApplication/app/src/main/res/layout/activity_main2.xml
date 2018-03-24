@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:layout_weight="1"
+        android:name="com.codingblocks.myapplicationfrag.BlueFragment"
+        android:layout_width="match_parent"
+        tools:layout="@layout/layout_red"
+        android:layout_height="wrap_content" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.codingblocks.myapplicationfrag.RedFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:layout="@layout/layout_blue" />
+<TextView
+    android:id="@+id/tv_result"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:text="0"
+    android:textSize="24sp"
+    android:layout_width="match_parent"
+    android:layout_height="0dp" />
+</LinearLayout>

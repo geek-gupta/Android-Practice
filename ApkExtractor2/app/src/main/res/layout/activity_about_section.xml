@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0BEC5"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.gaurav.apkextractor.menuactivity.AboutSectionActivity">
+
+
+<TextView
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:padding="4dp"
+    android:textStyle="bold"
+    android:textSize="24sp"
+    android:textColor="#B0BEC5"
+    android:inputType="none"
+    android:background="@drawable/edittextstyle"
+    android:id="@+id/aboutSection"/>
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_backup_text"
+        android:layout_marginTop="40dp"
+        android:padding="4dp"
+        android:textStyle="bold"
+        android:inputType="none"
+        android:textSize="24sp"
+        android:textColor="#B0BEC5"
+        android:background="@drawable/edittextstyle"/>
+
+</LinearLayout>

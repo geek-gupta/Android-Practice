@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:orientation="vertical"
+    tools:context="com.music.gaurav.gmusic.NowPlayingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="#BBDEFB">
+
+        <ImageView
+            android:id="@+id/song_image"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+
+        <android.support.v7.widget.AppCompatSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:background="#90CAF9"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/song_name_field"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".6"
+                android:maxLines="1"
+                android:paddingLeft="4dp"
+                android:gravity="left|center"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".4"
+                android:maxLines="1"
+                android:textSize="15dp"
+                android:gravity="left|center"
+                android:paddingLeft="4dp"
+                android:id="@+id/artist_name_field"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight=".2" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight=".2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#90CAF9"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+        android:padding="8dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight="0.2"
+            android:scaleType="fitXY"
+            android:src="@drawable/audiovolume"
+            android:background="@drawable/image_shadow" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1">
+
+        </View>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/previous"
+            android:scaleType="fitXY"
+            android:background="@drawable/image_shadow" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1">
+
+        </View>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/play"
+            android:scaleType="fitXY"
+            android:background="@drawable/image_shadow" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1">
+
+        </View>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/forward" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

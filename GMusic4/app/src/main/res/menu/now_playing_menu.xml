@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        android:id="@+id/search_bar"
+        android:title="search"></item>
+    <item android:title="Add to playlist" android:id="@+id/add_to_playlist"></item>
+    <item android:title="Delete" android:id="@+id/delete"></item>
+    <item android:title="Share" android:id="@+id/share_song"></item>
+    <item android:title="Set as ringtone" android:id="@+id/set_as_ringtone"></item>
+    <item android:title="Song Video" android:id="@+id/song_video"></item>
+    <item android:title="Details" android:id="@+id/details"></item>
+    <item android:title="Setting" android:id="@+id/setting"></item>
+</menu>
