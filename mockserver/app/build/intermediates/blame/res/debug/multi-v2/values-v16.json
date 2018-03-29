@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/gaurav/Documents/mockserver/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/gaurav/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d0f25cb589e76f317133706050c86e30/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/gaurav/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/36cd5ef1aafaeb32f030ab93048f1ce1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}
